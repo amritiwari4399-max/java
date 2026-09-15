@@ -1,0 +1,16 @@
+import java.util.*;
+public class hello1 {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter name ");
+        String name=sc.nextLine();
+        System.out.println("enter age ");
+        int age=sc.nextInt();
+        System.out.println("enter salary ");
+        double salary=sc.nextDouble();
+        System.out.println("name is "+name);
+        System.out.println("age is "+age);
+        System.out.println("salary is "+salary);
+    }
+    
+}
