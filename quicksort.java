@@ -17,7 +17,7 @@ public class quicksort {
         sc.close();
     }
 
-    public static void quickSort(int[] arr, int low, int high) {
+    public static void quickSort(int[] arr, int low, int high) 
         if (low < high) {
             int pi = partition(arr, low, high);
             quickSort(arr, low, pi - 1);
@@ -37,7 +37,7 @@ public class quicksort {
                 arr[j] = temp;
             }
         }
-        // Swap arr[i + 1] and arr[high] (or pivot)
+       
         int temp = arr[i + 1];
         arr[i + 1] = arr[high];
         arr[high] = temp;
