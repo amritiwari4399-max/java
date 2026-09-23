@@ -24,7 +24,7 @@ public class linkedlist2 {
             }
            
             }
-            System.out.println("null");
+           
     }
     public static void main(String[] args) {
         linkedlist2 ob = new linkedlist2();
